@@ -1,0 +1,30 @@
+{
+  "name": "js13k_2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {
+    "roadroller": "^2.0.0"
+  },
+  "devDependencies": {
+    "regpack": "^5.0.1",
+    "terser": "^5.7.2"
+  },
+  "scripts": {
+    "terser": "terser src/math/vector.js src/math/matrix.js src/utils/font.js src/objects/geometry.js src/objects/render_object.js src/render.js src/objects/sphere.js src/objects/laser.js src/objects/background.js src/objects/circle.js src/objects/blackhole.js src/game.js src/hud.js src/menu.js -m -o out/js13k_2021.min.js -c",
+    "regpack": "/Users/rrafols/dev/Regpack/bin/regpack out/js13k_2021.min.js > out/js13k_2021.packed.min.js",
+    "dist_test": "advzip -a -4 out/dist.zip out/js13k_2021.min.js out/index.html",
+    "dist": "advzip -a -4 out/dist.zip out/js08800.min.rr.js out/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrafols/js13k_2021.git"
+  },
+  "keywords": [],
+  "author": "Raimon Ràfols",
+  "license": "apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rrafols/js13k_2021/issues"
+  },
+  "homepage": "https://github.com/rrafols/js13k_2021#readme"
+}
