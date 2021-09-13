@@ -4,6 +4,7 @@
 Entry reduce using:
 - Terser - https://xem.github.io/terser-online/
 - RoadRoller - https://lifthrasiir.github.io/roadroller/
+- advzip - http://www.advancemame.it/download
 
 # Third party shaders & inspiration
 - https://www.shadertoy.com/view/wtd3zM
